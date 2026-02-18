@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../common/app_color.dart';
 import '../../common/common_home_app_bar.dart';
-import '../../login.dart';
+
 
 class HomeMasterScreen extends StatefulWidget {
   const HomeMasterScreen({super.key});
@@ -22,7 +22,7 @@ class _HomeMasterScreenState extends State<HomeMasterScreen> {
           Center(
             child: GestureDetector(
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => LoginScreen()));
+
               },
                 child: Text("CHAUHAN")),
           )
